@@ -1660,3 +1660,378 @@ Rendering template within layouts/knapek
 Rendering knapek/index
 Rendered knapek/_links (0.4ms)
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:48:18) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (1.0ms)
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/knapek?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:48:18) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:48:21) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:48:21) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/knapek]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:48:22) [GET]
+  [4;36;1mGallery Load (0.4ms)[0m   [0;1mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:48:22) [GET]
+  [4;35;1mGallery Load (0.4ms)[0m   [0mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 12ms (View: 1, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#new (for 127.0.0.1 at 2010-07-22 19:48:24) [GET]
+Rendering template within layouts/galleries
+Rendering galleries/new
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/galleries/new]
+
+
+Processing GalleriesController#new (for 127.0.0.1 at 2010-07-22 19:48:24) [GET]
+Rendering template within layouts/galleries
+Rendering galleries/new
+Completed in 26ms (View: 12, DB: 0) | 200 OK [http://localhost/galleries/new]
+
+
+Processing GalleriesController#create (for 127.0.0.1 at 2010-07-22 19:48:25) [POST]
+  Parameters: {"authenticity_token"=>"J0bdoWCzDnxzpTXDBi9EyuthJbBMpcYUcS/x1ap6meM=", "gallery"=>{"name"=>"", "desc"=>""}, "commit"=>"Create"}
+Rendering template within layouts/galleries
+Rendering galleries/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:48:26) [GET]
+  [4;36;1mGallery Load (0.3ms)[0m   [0;1mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:48:29) [GET]
+  [4;35;1mGallery Load (0.3ms)[0m   [0mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:48:29) [GET]
+  [4;36;1mGallery Load (0.3ms)[0m   [0;1mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-22 19:48:42) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Completed in 39ms (View: 7, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-22 19:49:25) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Completed in 17ms (View: 1, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:36) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (1.0ms)
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:36) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:38) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:38) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:50:40) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (0.4ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:50:40) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#galerie (for 127.0.0.1 at 2010-07-22 19:50:41) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/galerie
+Rendered knapek/_links (0.4ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/knapek/galerie]
+
+
+Processing KnapekController#galerie (for 127.0.0.1 at 2010-07-22 19:50:41) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/galerie
+Rendered knapek/_links (5.7ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/knapek/galerie]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:42) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:42) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 16ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:46) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:46) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:47) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:47) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:47) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:47) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:48) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (1.2ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:48) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:48) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:48) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:59) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (1.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:50:59) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:00) [GET]
+  Parameters: {"class"=>"link"}
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/?class=link]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:00) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:01) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:02) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:51:03) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (0.3ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:51:03) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (0.3ms)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#galerie (for 127.0.0.1 at 2010-07-22 19:51:04) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/galerie
+Rendered knapek/_links (0.3ms)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/galerie]
+
+
+Processing KnapekController#galerie (for 127.0.0.1 at 2010-07-22 19:51:04) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/galerie
+Rendered knapek/_links (0.3ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/galerie]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:51:04) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (0.3ms)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#about (for 127.0.0.1 at 2010-07-22 19:51:04) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/about
+Rendered knapek/_links (8.5ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/knapek/about]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:05) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing KnapekController#index (for 127.0.0.1 at 2010-07-22 19:51:05) [GET]
+Rendering template within layouts/knapek
+Rendering knapek/index
+Rendered knapek/_links (0.3ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:51:06) [GET]
+  [4;36;1mGallery Load (0.4ms)[0m   [0;1mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#index (for 127.0.0.1 at 2010-07-22 19:51:06) [GET]
+  [4;35;1mGallery Load (0.4ms)[0m   [0mSELECT * FROM "galleries" [0m
+Rendering template within layouts/galleries
+Rendering galleries/index
+Completed in 10ms (View: 1, DB: 0) | 200 OK [http://localhost/galleries]
+
+
+Processing GalleriesController#new (for 127.0.0.1 at 2010-07-22 19:56:58) [GET]
+Rendering template within layouts/galleries
+Rendering galleries/new
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/galleries/new]
+
+
+Processing GalleriesController#new (for 127.0.0.1 at 2010-07-22 19:56:58) [GET]
+Rendering template within layouts/galleries
+Rendering galleries/new
+Completed in 12ms (View: 5, DB: 0) | 200 OK [http://localhost/galleries/new]
